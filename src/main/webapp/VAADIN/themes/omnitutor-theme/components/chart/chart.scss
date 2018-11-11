@@ -1,0 +1,14 @@
+.chart-percentage {
+  background: repeating-linear-gradient(
+    to right,
+    rgb(189, 189, 189),
+    rgb(189, 189, 189) 2px,
+    #fff 1px,
+    #fff 5%
+  );
+}
+
+.chart-bar-color {
+	background: rgb(0,150,136);
+	box-shadow: 1px 1px 2px rgb(0,105,92);
+}

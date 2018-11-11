@@ -1,0 +1,26 @@
+.course-image-container {
+ 	position: relative;
+}
+
+.course-image-outer {
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+}
+
+.mentor-image {
+	border-radius: 50%;
+	box-shadow: 4px 4px 6px rgb(33,33,33);
+}
+
+.course-image-inner {
+	position: absolute;
+ 	top: 0;
+ 	left: 0;
+	z-index: 10;
+	background: repeating-linear-gradient(
+    	to bottom,
+    	rgba(0, 0, 0, 1),
+    	rgba(0, 0, 0, 0.6)
+ 	);
+}

@@ -1,0 +1,213 @@
+@import "../valo/valo.scss";
+@import "./components/sidebar/sidebar.scss";
+@import "./components/footer/footer.scss";
+@import "./components/navbar/navbar.scss";
+@import "./components/chart/chart.scss";
+
+@import "./pages/register.scss";
+@import "./pages/course-overview.scss";
+
+.v-panel-caption-customStyle {
+    text-align: center !important;
+    color: white !important;
+    background-color: rgb(120,144,156) !important;
+}
+
+.v-panel-caption-header {
+    text-align: center !important;
+    color: white !important;
+    font-size: 18px !important;
+    background-color: rgb(21,101,192) !important;
+}
+
+.v-panel-caption-captionShadow {
+	box-shadow: 3px 3px 9px rgb(189, 189, 189) !important;
+}
+
+.v-panel-content-contentShadow {
+	box-shadow: 3px 3px 9px rgb(189, 189, 189) !important;
+}
+
+.v-panel-content-contentBorderless {
+	border: none !important;
+}
+
+.v-caption-video {
+	font-size: 25px !important;
+	color: white !important;
+	text-align: center !important;
+}
+
+@mixin omnitutor-theme {
+  	@include valo;
+}
+
+.app-background {
+	background-image: url("./images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	opacity: 0.85; 
+}
+
+.bakcground-dark-green {
+	background-color: rgb(120,144,156);
+}
+
+.background-dark-gray {
+	background-color: rgb(84,110,122);
+}
+
+.background-light-gray {
+	background: rgb(250,250,250);
+}
+
+.background-blue {
+	background-color: rgb(100,181,246);
+}
+
+.background-dark-blue {
+	background-color: rgb(13,71,161);
+}
+
+.background-indigo {
+	background-color: rgb(121,134,203);
+}
+
+.background-black {
+	background-color: black;
+}
+
+.layout-shadow {
+	box-shadow: 4px 4px 6px rgb(224,224,224);
+}
+
+.shadow-small {
+	box-shadow: 2px 2px 4px (224,224,224);
+}
+
+.wrap-line {
+	word-wrap: break-word; /* IE  */
+   	white-space: -moz-pre-wrap; /* Firefox */
+}
+
+.text-red {
+	color: rgb(183,28,28);
+}
+
+.text-yellow {
+	color: rgb(255,238,88);
+}
+
+.text-shadow {
+	text-shadow: 2px 2px 10px rgb(189, 189, 189);
+}
+
+.text-dark-gray {
+	color: rgb(84,110,122);
+}
+
+.text-green {
+	color: rgb(27,94,32);
+}
+
+.text-justify {
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+.breakable-line {
+	white-space: pre-line	;
+}
+
+.text-white {
+	color: white;
+}
+
+.text-blue {
+	color: rgb(25,118,210);
+}
+
+.link-large {
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.solid-border-left {
+	border-left-style: solid;
+	border-left-color: rgb(224,224,224);
+	border-left-width: 1px;
+}
+
+.solid-border-top {
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: rgb(224,224,224);
+}
+
+.solid-border-bottom {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: rgb(224,224,224);
+}
+
+.double-border-bottom {
+	border-bottom-style: double;
+	border-bottom-width: 5px;
+	border-bottom-color: rgb(224,224,224);
+}
+
+.double-border-top {
+	border-top-style: double;
+	border-top-width: 5px;
+	border-top-color: rgb(224,224,224);
+}
+
+.solid-white-border-bottom {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: rgb(255,255,255);
+}
+
+.solid-border {
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(189, 189, 189);
+}
+
+.margin-small {
+	margin: 10px;
+}
+
+.image-fit {
+	object-fit: cover;
+}
+
+.small-margin-bot {
+	margin-bottom: 15px;
+}
+
+.text-large {
+	font-size: 25px;
+}
+
+.text-huge {
+	font-size: 60px;
+}
+
+.text-center {
+	text-align: center !important;
+}
+
+.card-default {
+	background: rgb(245,245,245);
+	box-shadow: 4px 4px 6px rgb(224,224,224);
+}
+
+.viewport-height {
+	height: 100vh;
+}
